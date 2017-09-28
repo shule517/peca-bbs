@@ -1,5 +1,6 @@
-require "bundler/setup"
-require "peca/bbs"
+require 'rspec'
+require 'bundler/setup'
+require 'peca/bbs'
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
